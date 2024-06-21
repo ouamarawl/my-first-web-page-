@@ -91,3 +91,75 @@ body{
   border: 1px solid #ddd;
   border-radius: 5px;
 }
+.reservations h3{
+  font-family: "Sofia", sans-serif;
+
+}
+.reservations h1{
+ text-transform: capitalize;
+ font-size: 70px;
+ }
+ 
+ .reservations button{
+background-color: black;
+color: white;
+ font-size: 40px;
+ border: 5px solid orange ;
+ }
+ .reservations button:hover{
+  background-color: green;
+  color: white;
+  border: 5px solid orange;
+ }
+  .reservations{
+    text-align: center;
+  }
+  .block{
+    display: flex;
+  }
+  .sction{
+    text-align: center;
+  }
+
+  #card2 h3{
+    font-family: "Sofia", sans-serif;
+    color: orange;
+  }
+  
+  .sction h1{
+    text-transform: capitalize;
+    font-size: 60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+   .cart h1{
+   font-size: 15px;
+   margin: 20px;
+  }
+
+  
+   .carts{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin-right: 180px;
+    margin-left: 180px;
+   }  
+   .sction button{
+    background-color: orange;
+    color: white;
+    margin: 20px;
+     border-radius: 20%;
+   }   
+    .carts img{
+      height: 350px;
+      width: 350px;
+      border-radius:100%;
+    }
+     
+     .cart img:hover {
+      transform: scale(1.2);
+     }
+    
+     .cart img {
+      transition:transform .2s ;
+     }
