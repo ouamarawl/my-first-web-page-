@@ -46,7 +46,8 @@ body{
     font-size: 1.2em;
     margin:  10px 0 0 0;
   }
-  .section{
+  .section1{
+    margin: 150px ;
     padding: 20px;
     text-align: center;
   }
@@ -84,7 +85,8 @@ body{
     border-radius: 5px;
     box-shadow: 0 0 10px rgba (0, 0, 0, 0.1);
   }
-.card-form input, .order-form textarea{
+.order-form input, .order-form textarea{
+
   width: 100%;
   padding: 10px;
   margin: 5px 0 10px 0;
@@ -112,12 +114,15 @@ color: white;
   border: 5px solid orange;
  }
   .reservations{
+    margin: auto;
     text-align: center;
   }
   .block{
+    margin: 100px;
     display: flex;
   }
-  .sction{
+  .section3{
+   
     text-align: center;
   }
 
@@ -126,7 +131,7 @@ color: white;
     color: orange;
   }
   
-  .sction h1{
+  .section3 h1{
     text-transform: capitalize;
     font-size: 60px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -141,10 +146,11 @@ color: white;
     display: flex;
     text-align: center;
     justify-content: space-between;
-    margin-right: 180px;
-    margin-left: 180px;
+    margin: auto;
+    margin-right: 180px; 
+      margin-left: 180px; 
    }  
-   .sction button{
+   .section3 button{
     background-color: orange;
     color: white;
     margin: 20px;
@@ -154,6 +160,7 @@ color: white;
       height: 350px;
       width: 350px;
       border-radius:100%;
+      
     }
      
      .cart img:hover {
@@ -161,5 +168,11 @@ color: white;
      }
     
      .cart img {
+      margin: auto;
       transition:transform .2s ;
      }
+     .section2{
+      margin: auto;
+      margin-left: 200px;
+     }
+     
