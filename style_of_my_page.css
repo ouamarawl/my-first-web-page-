@@ -175,4 +175,8 @@ color: white;
       margin: auto;
       margin-left: 200px;
      }
+     #carouselExampleControls img{
+      width: 100px;
+      height: 900px;
+     }
      
